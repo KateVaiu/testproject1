@@ -1,0 +1,22 @@
+{
+  "name": "testproject1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "optionalDependencies": {
+    "appium": "v1.21.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KateVaiu/testproject1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KateVaiu/testproject1/issues"
+  },
+  "homepage": "https://github.com/KateVaiu/testproject1#readme"
+}
