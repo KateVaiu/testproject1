@@ -1,36 +1,43 @@
 ## **Environment Requisites**
 
-1.1. Install RVM:
+1. Install RVM:
 
 ```
  curl -sSL https://get.rvm.io | bash -s stable
 ```
+to start using RVM you need to run `source ~/.rvm/scripts/rvm`
 
-1.2. Install Ruby:
+2. Install Ruby:
 
 ```
 rvm install ruby-2.6.3
 ```
 
-1.3. Install Bundler Gem to manage Gem dependencies:
+3. Install Bundler Gem to manage Gem dependencies:
 
 ```
  gem install bundler
 ```
 
-1.4. Install Gem dependencies from Gemfile:
+4. Install Gem dependencies from Gemfile:
 
 ```
  bundle install
 ```
 
-1.5. Install Node.js:
+5. Install Android Platform Tools:
+
+```
+brew install android-platform-tools
+```
+
+6. Install Node.js:
 
 ```
  brew install node
 ```
 
-1.6. Install Appium:
+7. Install Appium:
 
 ```
  npm install -g appium
@@ -40,7 +47,7 @@ rvm install ruby-2.6.3
 Before running test cases start Appium:
 
 ```
-  appium
+ appium
 ```
 For running tests cases, please use:
 
