@@ -1,6 +1,7 @@
 require 'appium_lib'
 
 require_relative 'support/appium_driver'
+require_relative 'support/assertion'
 require_relative 'support/constants'
 require_relative 'support/device'
 require_relative 'support/hooks'

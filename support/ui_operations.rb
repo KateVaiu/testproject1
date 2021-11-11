@@ -11,6 +11,10 @@ class UIOperations
     find_element(id).send_keys(text)
   end
 
+  def delete_text(id:)
+    find_element(id).clear
+  end
+
   def tap_element(id)
     find_element(id).click
   end
